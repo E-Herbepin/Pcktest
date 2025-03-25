@@ -2,13 +2,22 @@
 % Please edit documentation in R/carre.R
 \name{carre}
 \alias{carre}
-\title{Title}
+\title{Moyenne quadratique}
 \usage{
 carre(x, y)
 }
 \arguments{
-\item{y}{}
+\item{x}{a numeric vector}
+
+\item{y}{a numeric vector}
+}
+\value{
+a numeric vector
 }
 \description{
-Title
+Moyenne quadratique
+}
+\examples{
+carre(3, 4)
+> 5
 }

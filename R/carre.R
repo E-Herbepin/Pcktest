@@ -1,15 +1,16 @@
 # Fonction pour faire la moyenne quadratique
 
 
-#' Title
+#' Moyenne quadratique
 #'
-#' @param x
-#' @param y
+#' @param x a numeric vector
+#' @param y a numeric vector
 #'
-#' @returns
+#' @returns a numeric vector
 #' @export
 #'
-#' @examples
+#' @examples carre(3, 4)
+#'> 5
 carre <- function(x, y) {
   return(sqrt(x^2 + y^2))
 }

@@ -1,0 +1,41 @@
+---
+title: "Vignette test"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{carre}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+## A)
+
+La fonction maj2 sert à mettre en majuscule la deuxième lettre d'une chaine de caractere. 
+
+- test 
+- test 
+- maj2
+
+```{r}
+maj2("test")
+```
+
+```         
+-   carre
+```
+
+```{r}
+
+carre(2,7)
+
+```
+
+# Conclusion
