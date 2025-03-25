@@ -9,11 +9,9 @@ maj2(x)
 \arguments{
 \item{x}{a character vector}
 }
+\value{
+a character vector
+}
 \description{
 Title
-}
-\examples{
-
-importFrom stringr str_sub
-
 }

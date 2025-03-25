@@ -2,3 +2,4 @@
 
 export(carre)
 export(maj2)
+importFrom(stringr,str_sub)

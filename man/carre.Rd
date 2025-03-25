@@ -19,5 +19,5 @@ Moyenne quadratique
 }
 \examples{
 carre(3, 4)
-> 5
+
 }

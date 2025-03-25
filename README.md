@@ -1,10 +1,26 @@
+
 # Pcktest
 
-Un super package de folie
+<!-- badges: start -->
+<!-- badges: end -->
 
-Je parle de ce package dans mon article [ici](https://www.google.com)
+The goal of Pcktest is to ...
 
 ## Installation
 
-```{devtools::install_github()}
+You can install the development version of Pcktest from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("E-Herbepin/Pcktest")
 ```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(Pcktest)
+## basic example code
+```
+

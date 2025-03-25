@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples carre(3, 4)
-#'> 5
+#'
 carre <- function(x, y) {
   return(sqrt(x^2 + y^2))
 }
@@ -25,13 +25,14 @@ carre <- function(x, y) {
 #'
 #' @param x a character vector
 #'
-#' @returns
+#' @returns a character vector
 #' @export
 #'
-#' @examples
-#'
-#' importFrom stringr str_sub
+#' @importFrom stringr str_sub
 #'
 maj2 <- function(x) {
   return(paste0(str_sub(x, 1, 1), toupper(str_sub(x, 2, 2)), str_sub(x, 3, -1)))
 }
+
+
+
