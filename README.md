@@ -2,6 +2,7 @@
 # Pcktest
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/E-Herbepin/Pcktest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/E-Herbepin/Pcktest/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of Pcktest is to ...
